@@ -1,7 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout";
 import '../sass/styles.scss';
-import { Link } from "gatsby";
 import OpenGraphTags from "../components/ogTags";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -21,12 +20,23 @@ const IndexPage = () => {
                   <div className="is-size-3 has-text-light my-6">
                     Develop and deploy integration and data processing pipelines quickly and easily.
                   </div>
-                  <a href="https://github.com/cptn-io/el-cptn" className="button is-light is-large is-fullwidth">
-                    <span className="icon">
-                      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
-                    </span>
-                    <span>Visit GitHub</span>
-                  </a>
+                  <div className="buttons">
+                    <a href="https://discord.gg/ZGFyzhDjZ2" rel="noreferrer" target="_blank" className="button is-light is-large">
+                      <span className="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord-filled" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                          <path d="M14.983 3l.123 .006c2.014 .214 3.527 .672 4.966 1.673a1 1 0 0 1 .371 .488c1.876 5.315 2.373 9.987 1.451 12.28c-1.003 2.005 -2.606 3.553 -4.394 3.553c-.94 0 -2.257 -1.596 -2.777 -2.969l-.02 .005c.838 -.131 1.69 -.323 2.572 -.574a1 1 0 1 0 -.55 -1.924c-3.32 .95 -6.13 .95 -9.45 0a1 1 0 0 0 -.55 1.924c.725 .207 1.431 .373 2.126 .499l.444 .074c-.477 1.37 -1.695 2.965 -2.627 2.965c-1.743 0 -3.276 -1.555 -4.267 -3.644c-.841 -2.206 -.369 -6.868 1.414 -12.174a1 1 0 0 1 .358 -.49c1.392 -1.016 2.807 -1.475 4.717 -1.685a1 1 0 0 1 .938 .435l.063 .107l.652 1.288l.16 -.019c.877 -.09 1.718 -.09 2.595 0l.158 .019l.65 -1.287a1 1 0 0 1 .754 -.54l.123 -.01zm-5.983 6a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15zm6 0a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z" stroke-width="0" fill="currentColor"></path>
+                        </svg>
+                      </span>
+                      <span>Join on Discord</span>
+                    </a>
+                    <a href="https://github.com/cptn-io/el-cptn" rel="noreferrer" target="_blank" className="button is-light is-large">
+                      <span className="icon">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+                      </span>
+                      <span>Visit GitHub</span>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="column is-flex is-hidden-touch is-align-items-center is-justify-content-space-around">
@@ -151,8 +161,8 @@ const IndexPage = () => {
                     <li>Predictable cost to run your integrations. No cost per message, server-time.</li>
                     <li>Powerful Editor to build and configure Pipelines</li>
                   </ul>
-                  <div className="mt-4"><Link to="/browser_test" className="button is-primary is-outlined"
-                    alt="Learn more about Pipelines">Learn more about Pipelines</Link>
+                  <div className="mt-4"><a href="https://docs.cptn.io/docs/pipelines/build-a-pipeline" className="button is-primary is-outlined"
+                    alt="Learn more about Pipelines">Learn more about Pipelines</a>
                   </div>
                 </div>
               </div>
@@ -181,8 +191,8 @@ const IndexPage = () => {
                     <li>Support for setting custom CORS headers for integrating with your frontend apps.</li>
                   </ul>
                 </div>
-                <div className="mt-4"><Link to="/api" className="button is-primary is-outlined"
-                  alt="Learn more about Sources">Learn more about Sources</Link>
+                <div className="mt-4"><a href="https://docs.cptn.io/docs/sources/create-a-source" className="button is-primary is-outlined"
+                  alt="Learn more about Sources">Learn more about Sources</a>
                 </div>
               </div>
             </div>
@@ -209,8 +219,8 @@ const IndexPage = () => {
                     <li>Mix and match transformations as the data flows through your Pipelines</li>
                     <li>Use from ready-to-use transformations from Free App Library.</li>
                   </ul>
-                  <div className="mt-4"><Link to="/synthetics" className="button is-primary is-outlined"
-                    alt="Learn more about Transformations">Learn more about Transformations</Link>
+                  <div className="mt-4"><a href="https://docs.cptn.io/docs/transformations/create-transformation" className="button is-primary is-outlined"
+                    alt="Learn more about Transformations">Learn more about Transformations</a>
                   </div>
                 </div>
               </div>
@@ -239,8 +249,8 @@ const IndexPage = () => {
                     <li>Use from ready-to-use destinations from Free App Library.</li>
                   </ul>
                 </div>
-                <div className="mt-4"><Link to="/api" className="button is-primary is-outlined"
-                  alt="Learn more about Sources">Learn more about Destinations</Link>
+                <div className="mt-4"><a href="https://docs.cptn.io/docs/destinations/create-destination" className="button is-primary is-outlined"
+                  alt="Learn more about Sources">Learn more about Destinations</a>
                 </div>
               </div>
             </div>
