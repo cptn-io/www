@@ -63,7 +63,7 @@ const IndexPage = () => {
       <section className="section">
         <div className="container pb-6 with-bottom-border">
           <h2 className="has-text-primary">Open platform to rule them all</h2>
-          <div className="is-size-4 has-text-centered">Deploy the platform to your favorite Cloud and get started with building your integration pipelines.</div>
+          <div className="is-size-4 has-text-centered">All your integrations in one place. Forget about setting up message queues, serverless functions for building point-to-point integrations.</div>
           <div className="columns is-multiline products">
             <div className="product column is-half-tablet is-one-quarter-widescreen">
               <div className="dr-icon">
