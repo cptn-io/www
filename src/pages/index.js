@@ -41,6 +41,7 @@ const IndexPage = () => {
                     </a>
                   </div>
                 </div>
+
               </div>
               <div className="column is-flex is-hidden-touch is-align-items-center is-justify-content-space-around">
                 <figure className="image m-0">
@@ -146,6 +147,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          <div className="is-size-4 mt-6 has-text-centered">Checkout <a className="has-text-primary" rel="noreferrer" href="https://www.youtube.com/watch?v=b28Fu_oI2Tc" target="_blank">How to build Pipelines</a> on YouTube</div>
         </div>
       </section>
       <section className="section pt-0 has-background-white">
@@ -325,7 +327,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-    </Layout>
+    </Layout >
   )
 }
 
