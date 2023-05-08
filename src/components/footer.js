@@ -14,7 +14,7 @@ const Footer = ({ isPrimary }) => <section className={`footer section ${isPrimar
     </span>
   </div>
   <div className="mt-0 has-text-centered">
-    Copyright &copy; 2022 DevRaven Inc. All rights reserved. <Link className="ml-2" to="/terms">Terms of Service</Link><Link className="ml-2" to="/privacy">Privacy Policy</Link>
+    Copyright &copy; 2023 DevRaven Inc. All rights reserved. <Link className="ml-2" to="/terms">Terms of Service</Link><Link className="ml-2" to="/privacy">Privacy Policy</Link>
   </div>
 </section>
 
