@@ -317,8 +317,8 @@ const IndexPage = () => {
               <div className="card is-shadowless">
                 <div className="card-content">
                   <div className="content has-text-centered">
-                    <div className="is-size-4 has-text-weight-bold mb-4">SSO (coming soon)</div>
-                    <div className="is-size-5">Integrate with your SSO providers powered by OIDC to manage users
+                    <div className="is-size-4 has-text-weight-bold mb-4">SSO</div>
+                    <div className="is-size-5">No enterprise license required for Single Sign-On.
                     </div>
                   </div>
                 </div>
