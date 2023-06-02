@@ -3,7 +3,7 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Strict-Transport-Security: max-age=31536000; includeSubDomains
-  Content-Security-Policy: script-src 'self' 'unsafe-inline' www.googletagmanager.com static.cloudflareinsights.com www.google-analytics.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com;font-src 'self' fonts.gstatic.com; connect-src 'self' cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src youtube.com www.youtube.com;img-src 'self' *.ytimg.com https://*.google-analytics.com https://*.googletagmanager.com data:;
+  Content-Security-Policy: script-src 'self' 'unsafe-inline' www.googletagmanager.com static.cloudflareinsights.com www.google-analytics.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com;font-src 'self' fonts.gstatic.com; connect-src 'self' cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src youtube.com www.youtube.com https://cdn.forms-content.sg-form.com;img-src 'self' *.ytimg.com https://*.google-analytics.com https://*.googletagmanager.com data:;
 
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
