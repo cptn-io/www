@@ -9,8 +9,8 @@ const NavBar = (props) => {
     <div className="container">
       <div className="navbar-brand">
         <Link className="navbar-item py-0" to="/">
-          {props.isPrimary ? <img alt="Logo" src="images/logo_dark.png" className="box-logo" /> :
-            <img alt="DevRaven logo" src="/images/logo_light.png" className="box-logo" />}
+          {props.isPrimary ? <img alt="Logo" src="images/logo-darkbg.svg" className="box-logo" /> :
+            <img alt="Cptn logo" src="/images/logo.svg" className="box-logo" />}
         </Link>
 
         <button id="navbar-burger" className="navbar-burger" aria-label="menu" aria-expanded="false"
