@@ -269,10 +269,27 @@ const IndexPage = () => {
       </section>
       <section id="workflow-test" className="section py-0 has-background-white">
         <div className="container pb-6">
-          <div className="columns is-centered">
-            <div className="column is-9 is-12-touch is-flex is-align-items-center">
+          <div className="columns is-multiline">
+            <div className="column is-5 is-12-touch is-flex is-align-items-center">
+              <div className="content">
+                <div className="all-cap">App Library</div>
+                <h2 className="mt-1 section-head has-text-left">Ready to use app templates for your pipelines</h2>
+                <div className="is-size-5">
+                  <ul className="disc">
+                    <li>Ready-to-use Apps or customize for your use case.</li>
+                    <li>Built with Javascript and use any npm packages</li>
+                    <li>Integrate with favorite cloud services or send data to your warehouses.</li>
+                    <li>Growing list of apps, app updates or new apps doesn't require platform upgrades.</li>
+                  </ul>
+                  <div className="mt-4"><a href="https://docs.cptn.io/docs/apps/available-apps" className="button is-primary is-outlined"
+                    alt="List of available Apps">Check out all the Apps available</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column is-7 is-12-touch is-flex is-align-items-center">
               <figure className="image">
-                <StaticImage placeholder="none" alt="App Library" src="../images/apps.png" />
+                <StaticImage placeholder="none" alt="Apps" src="../images/applibrary.png" />
               </figure>
             </div>
           </div>
