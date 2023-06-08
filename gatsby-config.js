@@ -15,7 +15,7 @@ module.exports = {
   }, "gatsby-plugin-image", "gatsby-plugin-sitemap", {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        "icon": "./static/images/cptn.png"
+        "icon": "./static/images/logo-sq.png"
       }
     }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
       resolve: 'gatsby-source-filesystem',
